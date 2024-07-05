@@ -1,4 +1,4 @@
 FROM nginx
 WORKDIR /app
-COPY . /var/www/html
+COPY . /var/www/Amazon-Clone
 EXPOSE 80
