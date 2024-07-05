@@ -1,4 +1,4 @@
 FROM nginx
 WORKDIR /app
-COPY . .
+COPY . /var/www/html
 EXPOSE 3000
