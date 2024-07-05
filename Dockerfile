@@ -1,0 +1,4 @@
+FROM nginx
+WORKDIR /app
+COPY . .
+EXPOSE 3000
